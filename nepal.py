@@ -168,7 +168,7 @@ def contact():
 	elif admin in ['2']:
 		linex()
 		message = input(' [\u001b[36m•\033[1;37m] ENTER YOUR MESSAGE : ')
-		requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=2145350993&text=" + "NAME : " + username + "\nMESSAGE : " + message + "")
+		requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=6118288082&text=" + "NAME : " + username + "\nMESSAGE : " + message + "")
 		linex()
 		animation(" [\u001b[36m>\033[1;37m] YOUR MESSAGE HAS BEEN SENT TO ADMIN ")
 		input(" [\u001b[36m>\033[1;37m] ENTER TO BACK ")
@@ -197,7 +197,7 @@ def get_saved_username():
     return username
 username = get_saved_username()
 pass
-requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=2145350993&text=THIS USER IS USING V5\nNAME : " + username + "\nIP ADDRESS : " + ip )
+requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=6118288082&text=THIS USER IS USING V5\nNAME : " + username + "\nIP ADDRESS : " + ip )
 
 #------------------[ APPROVAL SYSTEM ]-------------------#
 
@@ -222,7 +222,7 @@ def approval():
 			input(' [\u001b[36m>\033[1;37m] CLICK ENTER TO SEND AN APPROVAL ')
 			linex()
 			msg = input(' [\u001b[36m•\033[1;37m] ENTER YOUR MESSAGE : ')
-			requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=930505683&text=" + "NAME : " + username + "\nIP ADDRESS : " + ip + "\nMESSAGE : " + msg + "\nENCRYPTED KEY : "+id)
+			requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=6118288082&text=" + "NAME : " + username + "\nIP ADDRESS : " + ip + "\nMESSAGE : " + msg + "\nENCRYPTED KEY : "+id)
 			linex()
 			animation("\x1b[1;97m [\u001b[36m>\033[1;37m] REQUEST HAS BEEN RECIEVED ")
 			time.sleep(1)
@@ -635,7 +635,7 @@ def menu():
                                     animation(' \033[1;37m[\u001b[36m•\033[1;37m] SHOWING XD IDz')
                                     print('---------------------------------------------')
                                     time.sleep(1)
-                                    with open('/sdcard/NIKHIL-XD.txt', 'r') as okids:
+                                    with open('/sdcard/SAFAL-XD.txt', 'r') as okids:
                                         okid = okids.read()
                                         print('\x1b[1;92m'+okid);
                                         okids.close()
