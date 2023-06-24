@@ -121,7 +121,7 @@ logo=("""\033[1;37m
 ██████╦╝██║░░██║██║░╚██╗██║░░██║
 ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝\u001b[31mNG
 \033[1;37m-------------------------------------------
- GITHUB      : safalgg
+ GITHUB      : Safalgg
  FACEBOOK    : Sen Pai
  VERSION     :\u001b[32m 9.9\033[1;37m
 \033[1;37m-------------------------------------------""")
@@ -610,7 +610,7 @@ def menu():
                                 print(' \033[1;37m[\u001b[36m•\033[1;37m] \u001b[32mOK\033[1;37m : ' +str(len(oks)))
                                 print(' \033[1;37m[\u001b[36m•\033[1;37m] \u001b[33mCP\033[1;37m : ' +str(len(cps)))
                                 linex()
-                                beck = input(' \033[1;37m[\u001b[36m>\033[1;37m] DO YOU WANT TO RERUN (y/n) : ')
+                                beck = input(' \033[1;37m[\u001b[36m>\033[1;37m] FERI CHALAUNXAS? (y/n) : ')
                                 if beck in ['y','Y']:
                                     os.system('python run.py')
                                 elif beck in ['n','N']:
