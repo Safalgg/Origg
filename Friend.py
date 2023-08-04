@@ -34,7 +34,7 @@ class Main:
 		with requests.Session() as session:
 			return session.post("https://mbasic.facebook.com"+str(kwargs["url"]), cookies=self.cookie, data=kwargs["data"]).status_code
 
-class Get(Main):
+class Get(Friend):
 
 	@property
 	def get(self):
