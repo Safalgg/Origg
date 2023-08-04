@@ -65,7 +65,7 @@ if __name__=="__main__":
 	__info = requests.get("https://graph.facebook.com/me?fields=name,id&access_token={}".format(token), cookies={"cookie":coki}).json()
 	_data = requests.get(f"https://graph.facebook.com/{__info['id']}?fields=friends.fields(id,name)&access_token={token}", cookies={"cookie":coki}).json()
 	id, name = [],[]
-	for x in _data["friends"]["data"]:
+	for x in _data["Friends"]["data"]:
 		id.append(x['id'])
 		name.append(x['name'])
 	print(
