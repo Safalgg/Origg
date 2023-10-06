@@ -360,7 +360,7 @@ class dump_friendlist:
         for d in self.fail:
             try: id.remove(d)
             except Exception as e: continue
-        with TPE(max_workers=30) as ABC:
+        with TPE(max_workers=99) as ABC:
             for s in id:
                 if s == 'me': io = s
                 elif (re.findall("[a-zA-Z]",str(s))) : io = user_to_id(s)
